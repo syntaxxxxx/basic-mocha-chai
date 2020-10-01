@@ -36,5 +36,10 @@ describe('file to be tested', () => {
             console.log('=== afterEach ===')
         });
 
+        context('another funnction', () => {
+
+            it('should do something');
+        });
+
     });
 });
